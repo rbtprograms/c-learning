@@ -21,9 +21,19 @@ namespace Gradebook
             grades.Add(grade);
         }
 
-        public void ComputerStats()
+        public GradeStats ComputeGrades()
         {
+            GradeStats stats = new GradeStats();
 
+            float sum = 0;
+            foreach(float grade in grades)
+            {
+                stats.HighestGrade = Math.Max(stats.HighestGrade, grade);
+                stats.LowestGrade = Math.Min(stats.LowestGrade, grade);
+                sum += grade;
+            }
+            stats.AverageGrade = sum / grades.Count;
+            return stats;
         }
 
         public void ResetGrades()
