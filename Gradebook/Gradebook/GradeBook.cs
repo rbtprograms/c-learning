@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Gradebook
 {
-    public class GradeBook
+    public class Grades
     {
 
-        public GradeBook()
+        public Grades()
         {
             grades = new List<float>();
         }

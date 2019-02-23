@@ -12,3 +12,6 @@ C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\ob
 C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\obj\Debug\GradeBook.Test.csproj.CopyComplete
 C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\obj\Debug\GradeBook.Test.dll
 C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\obj\Debug\GradeBook.Test.pdb
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\bin\Debug\Gradebook.exe
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\bin\Debug\Gradebook.pdb
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\GradeBook.Test\bin\Debug\Gradebook.exe.config

@@ -15,7 +15,7 @@ namespace Gradebook
             SpeechSynthesizer synth = new SpeechSynthesizer();
             synth.Speak("Hello and welcome to the grade book program.");
 
-            GradeBook book = new GradeBook();
+            Grades book = new Grades();
             book.AddGrade(91);
             book.AddGrade(89.5f);
             book.AddGrade(75);
@@ -24,7 +24,7 @@ namespace Gradebook
 
             Console.WriteLine(stats.AverageGrade);
             Console.WriteLine(stats.HighestGrade);
-            GradeBook book2 = book;
+            Grades book2 = book;
             book2.AddGrade(75);
         }
     }
