@@ -5,3 +5,10 @@ C:\Users\Robert Thompson\personalProjects\Gradebook\Gradebook\obj\Debug\Gradeboo
 C:\Users\Robert Thompson\personalProjects\Gradebook\Gradebook\obj\Debug\Gradebook.csproj.CoreCompileInputs.cache
 C:\Users\Robert Thompson\personalProjects\Gradebook\Gradebook\obj\Debug\Gradebook.exe
 C:\Users\Robert Thompson\personalProjects\Gradebook\Gradebook\obj\Debug\Gradebook.pdb
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\bin\Debug\Gradebook.exe.config
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\bin\Debug\Gradebook.exe
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\bin\Debug\Gradebook.pdb
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\obj\Debug\Gradebook.csprojAssemblyReference.cache
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\obj\Debug\Gradebook.csproj.CoreCompileInputs.cache
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\obj\Debug\Gradebook.exe
+C:\Users\Robert Thompson\personalProjects\c-learning\Gradebook\Gradebook\obj\Debug\Gradebook.pdb
