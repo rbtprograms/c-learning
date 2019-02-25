@@ -36,6 +36,8 @@ namespace Gradebook
             return stats;
         }
 
+        public string Name;
+
         public void ResetGrades()
         {
             grades.Clear();
