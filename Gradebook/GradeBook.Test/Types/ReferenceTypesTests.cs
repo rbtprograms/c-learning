@@ -29,12 +29,13 @@ namespace GradeBook.Test.Types
             Grades book1 = new Grades();
             Grades book2 = book1;
 
-            GiveBookAName(book2);
-            Assert.AreEqual("A Gradebook", book1.Name);
+            GiveBookAName(ref book2);
+            Assert.AreEqual("A Gradebook", book2.Name);
         }
 
-        private void GiveBookAName(Grades book)
+        private void GiveBookAName(ref Grades book)
         {
+            book = new Grades();
             book.Name = "A Gradebook";
         }
 
