@@ -13,6 +13,12 @@ namespace GradeBook.Test
     public class GradeBookTests
     {
         [TestMethod]
+        public void addsItems()
+        {
+            int res = 1 + 2;
+            Assert.AreEqual(res, 3);
+        }
+        [TestMethod]
         public void ComputesHighestGrade()
         {
             Grades book = new Grades();
