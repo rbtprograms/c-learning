@@ -36,7 +36,21 @@ namespace Gradebook
             return stats;
         }
 
-        public string Name;
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                if(!String.IsNullOrEmpty(value))
+                {
+                    _name = value;
+                }
+            }
+        }
+        private string _name;
 
         public void ResetGrades()
         {

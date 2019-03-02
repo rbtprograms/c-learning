@@ -16,12 +16,15 @@ namespace Gradebook
             synth.Speak("Hello and welcome to the grade book program.");
 
             Grades book = new Grades();
+            book.Name = "Bobby's Grade Book";
+            book.Name = null;
             book.AddGrade(91);
             book.AddGrade(89.5f);
             book.AddGrade(75);
 
             GradeStats stats = book.ComputeGrades();
 
+            Console.WriteLine(book.Name);
             Console.WriteLine(stats.AverageGrade);
             Console.WriteLine(stats.HighestGrade);
             Grades book2 = book;
