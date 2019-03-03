@@ -17,6 +17,33 @@ namespace Gradebook
         public float HighestGrade;
         public float LowestGrade;
 
+        public string Description
+        {
+            get
+            {
+                string result;
+                switch(LetterGrade)
+                {
+                    case "A":
+                        result = "Excellent";
+                        break;
+                    case "B":
+                        result = "Good";
+                        break;
+                    case "C":
+                        result = "Avergage";
+                        break;
+                    case "D":
+                        result = "Below Average";
+                        break;
+                    default:
+                        result = "Failing";
+                        break;
+                }
+                return result;
+            }
+        }
+
         public string LetterGrade
         {
             get
